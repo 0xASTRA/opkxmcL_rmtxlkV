@@ -107,5 +107,4 @@ $(document).ready(function () {
             $("#desc2_pag4R").html("Iremos entrar em contacto consigo o mais breve possível.");
             $("#btn_pag4R").text("Acesso a MyPlace");
             $("#hlkEnlaceHolmes").attr('href', "https://www.holmesplace.com/pt/pt/");
-            break;
 });
