@@ -3,8 +3,8 @@ $(document).ready(function () {
     switch ($("#hidLang").val()) {
         case "es":
             // LOGIN
-			$("#head_pag1").text("Acesso a MyPlace - Parceria Haitong Bank");
-            $("#desc1_pag1").html("Seja bem-vindo a esta área exclusiva para sócios, faça login com a conta interna do dominio Haitong. Este é um espaço onde poderá continuar a desfrutar da experiência Holmes Place.<br />O seu clube, a qualquer hora, em qualquer lugar.");
+			$("#head_pag1").text("Acesso a MyPlace");
+            $("#desc1_pag1").html("Seja bem-vindo a esta área exclusiva para sócios. Este é um espaço onde poderá continuar a desfrutar da experiência Holmes Place.<br />O seu clube, a qualquer hora, em qualquer lugar.");
             $("#username").attr("placeholder", "E-mail");
             $("#password").attr("placeholder", "Password");
             $(".forget-password").text("Esqueci-me da minha password");
@@ -15,8 +15,6 @@ $(document).ready(function () {
             $("#btnContactar_pag1").text("Contacte-nos");
 
             $("#hidRespuesta").val("Foi-lhe enviado um e-mail. Verifique por favor na sua caixa de entrada, ou spam.");
-
-            $("#hidRespuesta").val("Te hemos enviado un email. Revisa, por si acaso, tu correo SPAM.");
 
             // LOGIN VERIFICADO + QUIERE INFO
             $("#head_verificado").text("Gracias");
